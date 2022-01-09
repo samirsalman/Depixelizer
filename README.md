@@ -27,37 +27,30 @@ In my experiments I generate images using only one font (Roboto), but to improve
     - 20.000 pixeled images (each image name is <ID.png>) 
 
 ## Convoutional AutoEncoder Model
-```
-=================================================================
+```=================================================================
 Layer (type:depth-idx)                   Param #
 =================================================================
 AutoEncoder                              --
 ├─Sequential: 1-1                        --
 │    └─Conv2d: 2-1                       168
-│    └─BatchNorm2d: 2-2                  12
-│    └─ReLU: 2-3                         --
-│    └─MaxPool2d: 2-4                    --
-│    └─Conv2d: 2-5                       660
-│    └─BatchNorm2d: 2-6                  24
-│    └─ReLU: 2-7                         --
-│    └─MaxPool2d: 2-8                    --
-│    └─Conv2d: 2-9                       2,616
-│    └─BatchNorm2d: 2-10                 48
-│    └─ReLU: 2-11                        --
-│    └─MaxPool2d: 2-12                   --
+│    └─ReLU: 2-2                         --
+│    └─MaxPool2d: 2-3                    --
+│    └─Conv2d: 2-4                       660
+│    └─ReLU: 2-5                         --
+│    └─MaxPool2d: 2-6                    --
+│    └─Conv2d: 2-7                       2,616
+│    └─ReLU: 2-8                         --
+│    └─MaxPool2d: 2-9                    --
 ├─Sequential: 1-2                        --
-│    └─ConvTranspose2d: 2-13             1,164
-│    └─BatchNorm2d: 2-14                 24
-│    └─ReLU: 2-15                        --
-│    └─ConvTranspose2d: 2-16             294
-│    └─BatchNorm2d: 2-17                 12
-│    └─ReLU: 2-18                        --
-│    └─ConvTranspose2d: 2-19             75
-│    └─BatchNorm2d: 2-20                 6
+│    └─ConvTranspose2d: 2-10             1,164
+│    └─ReLU: 2-11                        --
+│    └─ConvTranspose2d: 2-12             294
+│    └─ReLU: 2-13                        --
+│    └─ConvTranspose2d: 2-14             75
 ├─MSELoss: 1-3                           --
 =================================================================
-Total params: 5,103
-Trainable params: 5,103
+Total params: 4,977
+Trainable params: 4,977
 Non-trainable params: 0
 =================================================================
 ```
