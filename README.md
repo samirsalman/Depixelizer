@@ -25,7 +25,7 @@ In my experiments I generate images using only one font (Roboto), but to improve
 
 ## Model prediction examples
 
-<img src="https://github.com/samirsalman/Depixelizer/blob/main/examples/preds.png">
+<img src="https://github.com/samirsalman/Depixelizer/blob/main/examples/preds2.png">
 
 
 
