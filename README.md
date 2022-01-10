@@ -57,7 +57,7 @@ Non-trainable params: 0
 
 ## Model prediction examples
 
-<img src="https://github.com/samirsalman/Depixelizer/blob/main/examples/preds3.png">
+<img src="https://github.com/samirsalman/Depixelizer/blob/main/examples/preds4.png">
 
 
 
