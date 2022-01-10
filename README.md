@@ -60,6 +60,12 @@ Non-trainable params: 0
 <img src="https://github.com/samirsalman/Depixelizer/blob/main/examples/preds4.png">
 
 
+## Todo
+
+- [ ] Improve predictions quality
+- [ ] Data augmentation
+- [ ] Use more fonts to generate the dataset
+
 
 ## Authors
 
